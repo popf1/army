@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARMY HARD RP — Правила</title>
+  <style>
+    :root {
+      --bg: #1a1a1d;
+      --panel: #2b2b30;
+      --panel2: #33333a;
+      --accent: #d4af37;
+      --danger: #c62828;
+      --text: #e0e0e0;
+      --muted: #8f8f96;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      line-height: 1.55;
+    }
+    header {
+      background: linear-gradient(180deg, #232327, #1e1e22);
+      border-bottom: 2px solid var(--accent);
+      padding: 1.4rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    header h1 { margin: 0; font-size: 1.5rem; letter-spacing: 1px; color: var(--accent); }
+    header p { margin: 0.25rem 0 0 0; font-size: 0.85rem; color: var(--muted); }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-left: 1.2rem;
+      font-weight: bold;
+      font-size: 0.92rem;
+    }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 920px; margin: 2rem auto 0 auto; padding: 0 1rem 2rem 1rem; }
+    section { margin-bottom: 3rem; }
+    h2 {
+      color: var(--accent);
+      border-left: 5px solid var(--accent);
+      padding-left: 0.6rem;
+      font-size: 1.35rem;
+      scroll-margin-top: 90px;
+    }
+    .rule-item { margin-bottom: 0.7rem; position: relative; padding-left: 1.3rem; }
+    .rule-item::before { content: "•"; color: var(--accent); position: absolute; left: 0; font-weight: bold; }
+    .forbidden {
+      background: rgba(198, 40, 40, 0.12);
+      border-left: 4px solid var(--danger);
+      padding: 0.8rem 1rem;
+      margin-top: 1rem;
+    }
+    .forbidden h3 { margin: 0 0 0.4rem 0; color: #ef5350; font-size: 1.05rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #44444b;
+      padding: 0.7rem 0.9rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #3a3a41; color: var(--accent); }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.03); }
+    .rank-name { font-weight: bold; color: #fff; white-space: nowrap; }
+    .special td { background: rgba(212,175,55,0.08) !important; }
+    .note { color: var(--muted); font-size: 0.88rem; margin-top: 0.5rem; }
+    .sanction-table td:first-child { white-space: nowrap; }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem 3rem 1rem;
+      color: #777;
+      font-size: 0.88rem;
+      border-top: 1px solid #33333a;
+      margin-top: 3rem;
+    }
+    @media (max-width: 640px) {
+      nav a { display: inline-block; margin: 0.3rem 0.8rem 0 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>ARMY HARD RP — ПРАВИЛА</h1>
+      <p>Только IC. Никаких OOC-оправданий. Смерть персонажа имеет последствия.</p>
+    </div>
+    <nav>
+      <a href="#core">Основные</a>
+      <a href="#ranks">Звания и роли</a>
+      <a href="#combat">Бои и ранения</a>
+      <a href="#sanctions">Санкции</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="core">
+      <h2>Основные принципы Hard RP</h2>
+      <div class="rule-item">Всё происходит только IC (In Character). Персонаж не знает ничего вне игры: ни имён игроков, ни событий OOC-чата, ни причин своего наказания вне отыгрыша.</div>
+      <div class="rule-item"><b>Метагейминг запрещён.</b> Использовать информацию, которую персонаж не мог узнать внутри игры, нельзя. Наказание сразу, без предупреждений.</div>
+      <div class="rule-item"><b>PowerPlay запрещён.</b> Нельзя решать за чужого персонажа и навязывать исход действий («я попал — ты умер» без отыгрыша защиты).</div>
+      <div class="rule-item"><b>Fear RP.</b> Персонаж боится смерти, боли и оружия, направленного на него. «Моему персонажу не больно» — не аргумент и нарушение.</div>
+      <div class="rule-item"><b>No Value of Life запрещено.</b> Нельзя геройствовать под дулом пистолета, лезть под пули, провоцировать смерть ради интереса.</div>
+      <div class="rule-item"><b>Exit to avoid RP запрещён.</b> Выход из игры, смена персонажа или ложный «отключился» для ухода из отыгрыша — тяжёлое нарушение.</div>
+      <div class="rule-item"><b>Реализм во всём:</b> оружие, документы и передвижение существуют только по отыгрышу, ничего «из воздуха».</div>
+      <div class="forbidden">
+        <h3>Категорические запреты</h3>
+        <div class="rule-item">Читы, макросы, багоюз, любой обход бана — пермабан без обсуждения.</div>
+        <div class="rule-item">Грим и RIP-игроков, ООС-оскорбления в IC-чате — бан.</div>
+        <div class="rule-item">Обсуждение реальной политики и религии в игре — предупреждение, далее бан.</div>
+      </div>
+    </section>
+
+    <section id="ranks">
+      <h2>Звания и роли</h2>
+      <table>
+        <tr><th>Звание</th><th>Роль и полномочия</th></tr>
+        <tr><td class="rank-name">Рядовой</td><td>Базовый состав. Исполняет приказы, несёт караульную службу, обязан подчиняться всем старшим по званию. Права на приказы не имеет.</td></tr>
+        <tr><td class="rank-name">Сержант</td><td>Командир отделения. Руководит рядовыми, имеет право объявить выговор и отправить на караул. Первое звено дисциплины.</td></tr>
+        <tr><td class="rank-name">Лейтенант</td><td>Офицер. Командует взводом, может отдавать приказы рядовым и сержантам, назначать наряды вне очереди за проступки.</td></tr>
+        <tr><td class="rank-name">Капитан</td><td>Командует ротой. Отвечает за дисциплину подчинённых, имеет право отправить нарушителя на гауптвахту.</td></tr>
+        <tr><td class="rank-name">Майор</td><td>Старший офицер. Курирует несколько рот, утверждает наказания от капитанов, допускается к планированию операций.</td></tr>
+        <tr><td class="rank-name">Полковник</td><td>Командует полком. Право разжалования сержантов и младших офицеров, проведение учений и объявление тревоги.</td></tr>
+        <tr><td class="rank-name">Генерал-майор</td><td>Высший командный состав. Утверждает крупные операции, разжалование до капитана включительно, приговоры по внутреннему суду чести.</td></tr>
+        <tr><td class="rank-name">Генерал армии</td><td>Верховный главнокомандующий стороны. Единолично утверждает разжалование, помилование, объявление войны и мира. Его приказ не оспаривается в IC.</td></tr>
+        <tr class="special"><td class="rank-name">Военный прокурор</td><td>Особая роль. Ведёт следствие по нарушениям IC-правил внутри отыгрыша, вызывает на допрос, передаёт дела на трибунал. <b>В вопросах следствия не подчиняется командирам</b>, подчиняется только уставу сервера. Не имеет права командовать войсками.</td></tr>
+      </table>
+      <p class="note">Приказ старшего по званию не обсуждается в IC. Сомневаешься в приказе — исполни, потом обратись к военному прокурору. Неподчинение = IC-наказание (гауптвахта, разжалование), а не только OOC-варн.</p>
+      <div class="rule-item" style="margin-top:1rem;">Присвоение и лишение званий — только вышестоящим по таблице. Военный прокурор звания не присваивает.</div>
+    </section>
+
+    <section id="combat">
+      <h2>Бои, ранения и плен</h2>
+      <div class="rule-item"><b>NLR (New Life Rule).</b> После смерти персонаж «забывает» обстоятельства гибели и не возвращается к ним и к убийцам 30 минут. Новая жизнь начинается чистой.</div>
+      <div class="rule-item"><b>Ранения отыгрываются.</b> Получил попадание — отыгрывай боль, шаткость, невозможность бежать. Продолжать бой как ни в чём не бывало — нарушение.</div>
+      <div class="rule-item"><b>Плен.</b> Сдавшийся обязан подчиняться до обмена или освобождения. Побег возможен только реальным отыгрышем и с согласия администрации при спорных условиях.</div>
+      <div class="rule-item"><b>Пленный под защитой устава.</b> Убийство сдавшегося в плен без причины IC — трибунал. Казнь пленного — тяжёлое IC-нарушение.</div>
+      <div class="rule-item"><b>Техника</b> существует только по отыгрышу: угнать чужую машину без роли = PowerPlay.</div>
+      <div class="rule-item"><b>Mass DM запрещён.</b> Стрельба без причины IC — бан, не предупреждение.</div>
+    </section>
+
+    <section id="sanctions">
+      <h2>Санкции</h2>
+      <p>Наказания делятся на два контура: IC — для персонажа (гауптвахта, разжалование, трибунал), OOC — для игрока (варн, кик, бан). Смешивать их запрещено: гауптвахта не карает игрока, бан не карает персонажа.</p>
+      <table class="sanction-table">
+        <tr><th>Нарушение</th><th>IC-последствие</th><th>OOC-последствие</th></tr>
+        <tr><td>Мелкий флуд, лёгкий откат отыгрыша</td><td>Наряд вне очереди</td><td>Предупреждение</td></tr>
+        <tr><td>Неподчинение приказу</td><td>Гауптвахта (1–3 часа отыгрыша)</td><td>Варн</td></tr>
+        <tr><td>Метагейминг / PowerPlay</td><td>По решению трибунала</td><td>Варн ×2</td></tr>
+        <tr><td>Fear RP, No Value of Life</td><td>Персонаж теряет звание на срок</td><td>Варн ×2</td></tr>
+        <tr><td>Exit to avoid RP</td><td>Персонаж не восстанавливается</td><td>Бан 1–3 дня</td></tr>
+        <tr><td>Mass DM, RDM</td><td>Трибунал</td><td>Бан 3–7 дней</td></tr>
+        <tr><td>Читы, багоюз, обход бана</td><td>—</td><td>Пермабан</td></tr>
+        <tr><td>Оскорбления OOC</td><td>—</td><td>Бан от 3 дней до пермабана</td></tr>
+      </table>
+      <h3 style="color: var(--accent);">Как подать жалобу</h3>
+      <div class="rule-item">IC-конфликт между персонажами — через военного прокурора: он проводит следствие в отыгрыше и передаёт дело на трибунал.</div>
+      <div class="rule-item">OOC-нарушение (читы, оскорбления, обход правил) — администрация в канале жалоб с записью происходящего (скриншот, лог, видео).</div>
+      <div class="rule-item">Ложная жалоба — приравнивается к нарушению: по IC это клевета, по OOC — варн.</div>
+    </section>
+  </main>
+
+  <footer>
+    ARMY HARD RP — версия 2.0 · Живи по уставу, умирай по-честному.
+  </footer>
+</body>
+</html>
